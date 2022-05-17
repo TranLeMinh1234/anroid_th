@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spinnerEdit"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"></Spinner>
+    <EditText
+        android:id="@+id/titleEdit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Title"></EditText>
+    <EditText
+        android:id="@+id/contentEdit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="content"></EditText>
+
+    <Button
+        android:text="Them"
+        android:id="@+id/btnAdd"
+        android:layout_width="100dp"
+        android:layout_height="60dp"></Button>
+    <Button
+        android:text="Cap Nhat"
+        android:id="@+id/btnUpdate"
+        android:layout_width="120dp"
+        android:layout_height="60dp"></Button>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
